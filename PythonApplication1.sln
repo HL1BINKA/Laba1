@@ -4,8 +4,8 @@ if a<0 or b<0:
     print("Error!")
 else:
     if a>b:
-        X=a*b/21;
-        print(X," = ",a," * ",b," / 21")
+        X=a*b+21;
+        print(X," = ",a," * ",b," + 21")
     elif a == b :
         X=-5;
         print(X)
